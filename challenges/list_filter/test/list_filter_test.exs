@@ -8,6 +8,7 @@ defmodule ListFilterTest do
 
       assert ListFilter.call(list1) == 3
       assert ListFilter.call(list2) == 1
+      assert ListFilter.call([]) == 0
     end
   end
 end
